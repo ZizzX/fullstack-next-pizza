@@ -6,8 +6,10 @@
 .pnp.js
 .yarn/install-state.gz
 
+# IDE configs
 .idea
 .vscode
+.idea/GitlabLint.xml
 
 # testing
 /coverage
@@ -15,6 +17,7 @@
 # next.js
 /.next/
 /out/
+next-env.d.ts
 
 # production
 /build
@@ -36,4 +39,3 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
